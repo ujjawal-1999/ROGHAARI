@@ -1,0 +1,88 @@
+body{
+	background: #dddddd;
+}
+
+.back{
+	background: #eeeeee;
+	width:100%;
+}
+.form{
+	margin-top:40%;
+	border-radius: 10px;
+	box-shadow:3px 3px 15px #130f0fa3;;
+	padding: 10px 25px 30px 15px;
+	width: 100%;
+}
+.password{
+	font-weight: bold;
+	font-family: lato,san-serif;
+	font-size:30px;
+	text-align: center;
+	padding-top:10px;
+	margin-top:15px;
+	padding-bottom: 20px;
+	border-radius: 10px; 
+	color:white;
+	background-image: linear-gradient(to right,#05233f, #233545, #042643);
+}
+.submit{
+	margin-left:25%;
+	font-weight: bold;
+	color:white;
+	background-image:linear-gradient(to right,#011918, #052e28,#10201f);
+	padding: 10px;
+	margin-left:27%;
+	border-radius: 10px;
+	width:50%;
+	border : 2px solid #00605c;
+}
+a, a:hover{
+	text-decoration: none;
+	color:white;
+}
+.footer{
+	justify-content: space-between;
+	padding-left: 30%;
+	align-content: center;
+	display:grid;
+	padding-top: 30px;
+	grid-gap:30px;
+	grid-template-columns: auto auto;
+}
+.footer a{
+	color:#00605a;
+	font-family: arial,san-serif;
+	text-decoration:none;
+	font-weight: bold;
+}
+.footer a:hover{
+	text-decoration: none;
+	color:#00605a;
+}
+input:focus{
+	outline:none;
+	border:1px solid aqua;
+	box-shadow : 1px 1px 4px;
+}
+button:focus{
+	outline:none;
+}
+.reg{
+	color: black;
+	padding: 5px;
+	padding-left:auto;
+	margin:10px auto auto;
+	display: inline-block;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	font-weight:bold;
+	letter-spacing: 0.5px;
+	text-shadow: #233545;
+}
+.reg:hover{
+	color:#003460;
+	cursor : pointer;
+	text-decoration: none;
+}
+.reg:active{
+	text-decoration: none;
+}
